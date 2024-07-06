@@ -1,0 +1,31 @@
+<div 
+    class="card-coffee"
+    *ngFor="let item of apiData"
+>
+  <figure>
+    @if(item.popular == true) {
+      <span class="tag">Popular</span>
+    }
+    <img [src]="item.image" alt="Coffee image" />
+  </figure>
+  <section>
+    <h2>{{ item.name }}</h2>
+    <p class="price">{{ item.price }}</p>
+  </section>
+  <section>
+    <div>
+      @if(item.votes > 0) {
+        <img src="/assets/svg/star_fill.svg" alt="Star svg icon"/>
+        <h3>{{ item.rating }}</h3>
+        <p class="votes">({{ item.votes }} votes)</p>
+      } @else {
+        <img src="/assets/svg/star.svg" alt="Empty star svg icon"/>
+        <h3 class="votes">No ratings</h3>
+      }
+    </div>
+
+    @if(item.available != true) {
+        <span class="no-available">Sold out</span>
+    }
+  </section>
+</div>

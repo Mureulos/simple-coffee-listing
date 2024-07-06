@@ -1,0 +1,69 @@
+@import '../../../../assets/scss/$_color-variables.scss';
+@import '../../../../assets/scss/$_typograph.scss';
+
+.card-coffee {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+
+    * {
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'DM Sans Medium';
+        font-size: $Body;
+    }
+    
+    figure {
+        width: 100%;
+        height: 100%;
+        flex: 2;
+
+        .tag {
+            position: relative;
+            color: $cinder;
+            background-color: $saffron-mango;
+            border-radius: 50px;
+            padding: 4px 15px;
+            left: 10px;
+            top: 30px;
+            z-index: 2;
+            font-family: 'DM Sans Bold';
+            font-size: $Price-text;
+        }
+
+        img {
+            position: static;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    section {
+        padding: 0.4em 0;
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+
+        .price {
+            padding: 7px;
+            border-radius: 5px;
+            background-color: $edgewater;
+            color: $cinder;
+            font-family: 'DM Sans Bold';
+            font-size: $Price-text;
+        }
+        
+        div {
+            display: flex;
+        }
+
+        .votes { color: $pale-sky; }
+
+        .no-available { 
+            font-family: 'DM Sans Bold';
+            color: $sunrise-orange; 
+        }
+    }
+}

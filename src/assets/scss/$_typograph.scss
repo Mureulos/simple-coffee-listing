@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'DM Sans Medium';
+    src: url('../fonts/DMSans_Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DM Sans Regular';
+    src: url('../fonts/DMSans_Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DM Sans Bold';
+    src: url('../fonts/DMSans_Bold.ttf') format('truetype');
+}
+
+$Heading: 2rem;
+$Body: 1rem;
+$Label: 0.875rem;
+$Small-text: 0.625rem;
+$Price-text: 0.75rem;

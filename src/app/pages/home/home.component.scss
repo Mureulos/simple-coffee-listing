@@ -1,0 +1,22 @@
+@import '../../../assets/scss/$_color-variables.scss';
+@import '../../../assets/scss/$_typograph.scss';
+
+.title {
+    font-size: $Heading;
+    color: $rose-white;
+}
+
+.description {
+    font-size: $Body;
+    color: $pale-sky;
+}
+
+app-card-coffee {
+    border-radius: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+    width: 100%;
+}
