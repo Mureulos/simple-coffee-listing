@@ -1,7 +1,62 @@
 @import '../assets/scss/$_color-variables.scss';
 
+// div {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     width: 100%;
+//     height: 100%;
+//     color: $rose-white;
+//     border-radius: 0;
+//     padding: 2em;
+
+//     img {
+//         position: absolute;
+//         object-fit: cover;
+//         width: 100%;
+//         height: 500px;
+//         top: 0;
+//     }
+
+//     app-home {
+//         position: relative;
+//         top: 100px;
+//     }
+// }
+
 div {
-    background-color: $dark-jungle-green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
     color: $rose-white;
     border-radius: 0;
+    padding: 1em;
+
+    img {
+        position: absolute;
+        object-fit: cover;
+        width: 100%;
+        height: 500px;
+        top: 0;
+    }
+
+    app-home {
+        position: relative;
+        top: 50px;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 500px) {
+    div {
+        padding: 2em;
+
+        app-home {
+            top: 100px;
+        }
+    }
 }

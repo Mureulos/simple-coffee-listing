@@ -1,22 +1,51 @@
 @import '../../../assets/scss/$_color-variables.scss';
 @import '../../../assets/scss/$_typograph.scss';
 
-.title {
+div {
+  position: relative;
+  background-color: $dark-jungle-green;
+  border-radius: 15px;
+
+  main {
+    gap: 1em;
+
+    .content-text {
+      text-align: center;
+      max-width: 500px;
+
+      .title {
+        font-family: 'DM Sans Bold';
+        font-size: 1.75em;
+        color: $rose-white;
+        margin-bottom: 0.5em;
+      }
+
+      .description {
+        font-size: $Body;
+        color: $pale-sky;
+        line-height: 1.35em;
+      }
+    }
+
+    app-card-coffee {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 3em;
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .title {
     font-size: $Heading;
-    color: $rose-white;
+  }
 }
 
-.description {
-    font-size: $Body;
-    color: $pale-sky;
-}
-
-app-card-coffee {
-    border-radius: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 3em;
-    width: 100%;
+@media (min-width: 640px) {
+  main {
+    flex-direction: column;
+  }
 }

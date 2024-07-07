@@ -59,7 +59,14 @@
             display: flex;
         }
 
-        .votes { color: $pale-sky; }
+        .rating {
+            display: flex;
+            gap: 5px;
+        }
+
+        .votes { 
+            color: $pale-sky; 
+        }
 
         .no-available { 
             font-family: 'DM Sans Bold';

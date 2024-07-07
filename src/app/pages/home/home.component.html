@@ -1,10 +1,10 @@
 <div>
-    <section>
-        <h1 class="title">{{ contentAplication.title }}</h1>
-        <p class="description">{{ contentAplication.text }}</p>
-    </section>
-    
     <main class="container">
+        <section class="content-text">
+            <h1 class="title">{{ contentAplication.title }}</h1>
+            <p class="description">{{ contentAplication.text }}</p>
+        </section>
+    
         <app-card-coffee [apiData]="this.data">
         </app-card-coffee>
     </main>    
