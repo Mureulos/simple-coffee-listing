@@ -1,0 +1,20 @@
+@import '../../../../assets/scss/$_color-variables.scss';
+@import '../../../../assets/scss/$_typograph.scss';
+
+button {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 0.7em;
+    color: white;
+    font-size: $Body;
+}
+
+.active {
+    background: $pale-sky;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 0.7em;
+    color: white;
+    font-size: $Body;
+}

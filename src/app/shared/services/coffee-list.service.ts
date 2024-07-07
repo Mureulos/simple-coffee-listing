@@ -15,4 +15,8 @@ export class CoffeeListService {
   getData(): Observable<CoffeeType[]> {
     return this.httpClient.get<CoffeeType[]>(`${this.apiUrl}`)
   }
+
+  filterData(): Observable<CoffeeType[]> {
+    return this.getData().pipe(map((allCoffee: CoffeeType[]) => allCoffee.filter(e => e.available == true)))
+  }
 }
