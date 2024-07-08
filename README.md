@@ -1,27 +1,31 @@
-# CoffeeListing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.6.
+# Desafio Dev Challenge
+Desafio de front-end nível 2/5 propostos pela plataforma DevChallenge. O desafio consistia em criar uma página utilizando algum framework/biblioteca de acordo com o desing e os stories propostos.
 
-## Development server
+### Stories do desafio: 
+- Crie uma página de listagem de café que corresponda ao design fornecido.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Use React ou outras bibliotecas Front-end para este desafio.
 
-## Code scaffolding
+- Crie um componente card reutilizável.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- O componente do card deve incluir foto, nome, preço, classificação e número de votos, se existir.
 
-## Build
+- O componente do cartão deve renderizar a tag popular e o status de disponibilidade condicionalmente.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Renderize a lista de café com os dados fornecidos. Os dados devem vir de uma determinada API ou de um arquivo JSON baixado.
 
-## Running unit tests
+- Os usuários podem optar por listar todos os produtos ou apenas os produtos disponíveis.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Implante a solução e envie o URL do repositório e o URL de demonstração.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Screenshots do desafio concluído:
 
-## Further help
+![App Screenshot](src/assets/img/done.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+### Tecnologias utilizadas:
+
+![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/64px-Angular_full_color_logo.svg.png)
+
