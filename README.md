@@ -25,5 +25,5 @@ Level 2/5 front-end challenge proposed by the DevChallenge platform. The challen
 
 
 ### Tecnologias utilizadas:
-![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/64px-Angular_full_color_logo.svg.png)
+![enter image description here](https://miro.medium.com/v2/resize:fit:89/format:webp/1*Klh1l7wkoG6PDPb9A5oCHQ.png)
 
