@@ -1,31 +1,29 @@
 
-# Desafio Dev Challenge
-Desafio de front-end nível 2/5 propostos pela plataforma DevChallenge. O desafio consistia em criar uma página utilizando algum framework/biblioteca de acordo com o desing e os stories propostos.
+# DevChallenge Challenge
+Level 2/5 front-end challenge proposed by the DevChallenge platform. The challenge consisted of creating a page using some framework/library according to the proposed design and stories.
 
-### Stories do desafio: 
-- Crie uma página de listagem de café que corresponda ao design fornecido.
+### Stories: 
+- Create a coffee listing page that matches the given design.
 
-- Use React ou outras bibliotecas Front-end para este desafio.
+- Use React or other Front-end libraries for this challenge.
 
-- Crie um componente card reutilizável.
+- Create a Reusable Card component.
 
-- O componente do card deve incluir foto, nome, preço, classificação e número de votos, se existir.
+- The card component should include a picture, name, pricing, rating, and number of votes if exists.
 
-- O componente do cartão deve renderizar a tag popular e o status de disponibilidade condicionalmente.
+- The card component should render popular tag, availability status conditionally.
 
-- Renderize a lista de café com os dados fornecidos. Os dados devem vir de uma determinada API ou de um arquivo JSON baixado.
+- Render Coffee list with given data. The data should come from a given API or downloaded JSON file.
 
-- Os usuários podem optar por listar todos os produtos ou apenas os produtos disponíveis.
+- Users can choose to list all products or just available products.
 
-- Implante a solução e envie o URL do repositório e o URL de demonstração.
+- Deploy the solution and submit Repository URL and Demo URL.
 
 
-## Screenshots do desafio concluído:
-
+## Screenshots:
 ![App Screenshot](src/assets/img/done.png)
 
 
 ### Tecnologias utilizadas:
-
 ![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/64px-Angular_full_color_logo.svg.png)
 
