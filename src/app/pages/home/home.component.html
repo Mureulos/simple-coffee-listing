@@ -5,17 +5,13 @@
       <p class="description">{{ contentAplication.text }}</p>
 
       <div>
-        <app-filter-button
-          [active]="true"
-          [text]="'All Product'"
-          [action]="getData.bind(this)"
-        ></app-filter-button>
-
-        <app-filter-button
-          [active]="false"
-          [text]="'Available now'"
-          [action]="filterData.bind(this)"
-        ></app-filter-button>
+        <ng-container *ngFor="let button of filterButtons; let i = index">
+          <app-filter-button
+            [active]="button.active"
+            [text]="button.text"
+            (action)="onFilterButtonClicked(i)"
+          ></app-filter-button>
+        </ng-container>
       </div>
       <img src="assets/svg/vector.svg" alt="" />
     </section>

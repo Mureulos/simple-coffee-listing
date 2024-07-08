@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter  } from '@angular/core';
 
 @Component({
   selector: 'app-filter-button',
@@ -11,11 +11,9 @@ import { Component, Input } from '@angular/core';
 export class FilterButtonComponent {
   @Input() text: string = ''
   @Input() active: boolean = false
-  @Input() action?: () => void
+  @Output() action = new EventEmitter()
 
   onClick(): void {
-    if (this.action) {
-      this.action();
-    }
+    this.action.emit()
   }
 }
