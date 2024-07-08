@@ -5,16 +5,17 @@ button {
     background: transparent;
     border: 1px solid transparent;
     border-radius: 15px;
-    padding: 0.7em;
+    padding: 0.7em 1em;
     color: white;
     font-size: $Body;
+    transition: all 0.25s;
 }
 
 .active {
     background: $pale-sky;
-    border: 1px solid transparent;
-    border-radius: 15px;
-    padding: 0.7em;
-    color: white;
-    font-size: $Body;
+}
+
+button:active {
+    transform: scale(0.9);
+    background-color: #36393cdc;
 }

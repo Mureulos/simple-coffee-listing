@@ -1,11 +1,25 @@
 <div>
-    <main class="container">
-        <section class="content-text">
-            <h1 class="title">{{ contentAplication.title }}</h1>
-            <p class="description">{{ contentAplication.text }}</p>
-            <app-filter-button></app-filter-button>
-        </section>
-        <app-card-coffee [apiData]="this.data">
-        </app-card-coffee>
-    </main>    
+  <main class="container">
+    <section class="content-text">
+      <h1 class="title">{{ contentAplication.title }}</h1>
+      <p class="description">{{ contentAplication.text }}</p>
+
+      <div>
+        <app-filter-button
+          [active]="true"
+          [text]="'All Product'"
+          [action]="getData.bind(this)"
+        ></app-filter-button>
+
+        <app-filter-button
+          [active]="false"
+          [text]="'Available now'"
+          [action]="filterData.bind(this)"
+        ></app-filter-button>
+      </div>
+      <img src="assets/svg/vector.svg" alt="" />
+    </section>
+
+    <app-card-coffee [apiData]="this.data"> </app-card-coffee>
+  </main>
 </div>
